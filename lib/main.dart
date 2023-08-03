@@ -59,6 +59,7 @@ var storage = FlutterSecureStorage();
     await file.writeAsString(_counter.toString(),mode: FileMode.append);
     setState(() {
 print("h");
+print("h");
     });
   }
 
